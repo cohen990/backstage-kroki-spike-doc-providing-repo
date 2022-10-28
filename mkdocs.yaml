@@ -4,7 +4,7 @@ plugins:
   - techdocs-core
   - kroki:
       ServerURL:
-        'https://kroki.io' 
+        'http://localhost:8000' 
 
 nav:
   - 'General':
