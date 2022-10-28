@@ -1,7 +1,7 @@
 #some markdown
 
 ## some puml
-```kroki-puml
+```kroki-plantuml
 @startuml
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
