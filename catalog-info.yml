@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-kroki-spike-doc-providing-repo
+  annotations:
+    github.com/project-slug: ovotech/backstage-kroki-spike-doc-providing-repo
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
