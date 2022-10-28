@@ -1,5 +1,14 @@
 #some markdown
 
+## some mermaid
+```kroki-mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ## some puml
 ```kroki-plantuml
 @startuml
@@ -11,11 +20,3 @@ Alice <-- Bob: Another authentication Response
 @enduml
 ```
 
-## some mermaid
-```kroki-mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
