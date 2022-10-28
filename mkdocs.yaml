@@ -6,6 +6,6 @@ plugins:
 nav:
   - 'General':
       - 'md file': some-markdown.md
-      - 'puml': markdown-with-puml.md
+      - 'puml': testing-kroki.md
   - 'General Engineering':
     - 'external': https://www.google.com
