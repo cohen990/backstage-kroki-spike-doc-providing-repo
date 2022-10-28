@@ -1,0 +1,85 @@
+site_name: 'Field Tech Dashboard'
+repo_url: https://github.com/ovotech/ft-dashboard
+edit_uri: edit/main/docs/
+plugins:
+  - techdocs-core
+
+nav:
+  - 'General':
+      - 'Non-Functional Requirements': general-non-functional-requirements.md
+      - 'Definition of Ready': https://docs.google.com/presentation/d/1jqpHKvzGu9wIjSkh2XNhh3eo5A4CkuZHk1EjZAfzREk/edit#slide=id.g58091077ab_0_0
+      - 'Definition of Done': https://docs.google.com/presentation/d/1jqpHKvzGu9wIjSkh2XNhh3eo5A4CkuZHk1EjZAfzREk/edit#slide=id.g4c7e136708_0_6
+      - Glossary: https://docs.google.com/document/d/1RjnBFDdcbva4G3Hm1mHgRmkSP5KOA_fjnwKRfQumbl8
+      - 'Google Drive': https://drive.google.com/drive/u/0/folders/0AJB1_6DPmaxTUk9PVA
+      - 'OVO Brand Guidelines': https://ovobyus.com/group-brand-guidelines
+  - 'General Engineering':
+      - '10% time board': https://trello.com/b/BZTPEwbg/10-time
+      - 'Decision Log and ADRs': 'decisions/README.md'
+      - 'Developer Onboarding': https://docs.google.com/document/d/1zonE_n0W1KqQwNMVQ8f_rOeSTub8UEPvcgtZ4I2ZkOA
+      - 'Development Principles': 'development-principles.md'
+      - 'Open Forum board': https://trello.com/b/4uu4LBeP/open-forum
+      - 'Repository List': 'repositories/readme.md'
+      - 'Spike Playbacks': https://docs.google.com/presentation/d/1D61yd8zgPCPtoH5qFWFpVEvTItnmCEN5CQ0oj-i4qp4/
+  - Guides:
+      - 'AWS Guide': 'guides/aws/readme.md'
+      - 'Bug Categorisation': https://docs.google.com/document/d/1QwUhVaPJ0g9jAdO9bQIOVhF8SVtmexWXQQSZKlf-uyE
+      - 'Castle CLI': 'guides/castle-cli.md'
+      - 'Data and BigQuery': 'guides/bigquery.md'
+      - 'Docker Desktop': 'guides/docker-desktop-alternatives.md'
+      - 'Feature Flags': https://docs.google.com/document/d/15FgqRk9B4TgRQutXMEAd9O-J2qAutfcxcFnM343Ek58/
+      - 'GCP Guide': 'guides/gcp/readme.md'
+      - 'GitHub Repo Settings': 'guides/github-repo-settings.md'
+      - 'Hoppscotch': 'guides/hoppscotch.md'
+      - 'Kafka': 'guides/kafka.md'
+      - 'Managing Java SDKs': 'guides/managing-java-sdks.md'
+      - 'Mentoring and Coaching': 'guides/mentoring/readme.md'
+      - 'Using Apple Silicon': 'guides/apple-silicon.md'
+      - 'Using asdf': 'guides/using-asdf.md'
+      - 'Using IntelliJ IDEA': 'guides/intellij-idea.md'
+      - 'Using Slack': 'guides/using-slack.md'
+  - 'Jira Projects':
+      - Smart:
+          - 'Zeno - Installer': https://ovotech.atlassian.net/browse/FTE
+          - 'Zeno - Scheduler': https://ovotech.atlassian.net/browse/FTSC
+          - 'Zeno - SSE Integration': https://ovotech.atlassian.net/browse/FTI
+      - 'Industry Ops':
+          - 'IOps - Automations': https://ovotech.atlassian.net/browse/IOPS
+          - 'IOps - Interactions': https://ovotech.atlassian.net/browse/EIO
+  - Processes:
+      - 'API-Driven Development': 'processes/api-driven-development.md'
+      - 'Engineering Excellence': 'processes/engineering-excellence.md'
+      - 'Pull Requests': 'processes/pull-requests/readme.md'
+      - 'Tech Debt': 'processes/tech-debt.md'
+  - 'Software and Tools':
+      - 'Postman Team': https://ovo-fieldforce.postman.co
+      - 1Password: https://intelligentenergytech.1password.com/
+      - Keycloak: https://keycloak.fieldforce.kaluza.technology
+      - Metabase: https://metabase.fieldforce.kaluza.technology
+      - Grafana: https://grafana.fieldforce.kaluza.technology
+  - 'SRE and Production Engineering':
+      - 'Cloud Cost Reports':
+        - Guide: 'cost-reports/readme.md'
+        - '2022':
+              - 'April': 'cost-reports/2022-04/readme.md'
+              - 'May': 'cost-reports/2022-05/readme.md'
+              - 'Q3': 'cost-reports/2022Q3/readme.md'
+      - 'Incident Playbook': https://incident-playbook.fieldtech.ovotech.org.uk
+      - 'Incident Log': https://incidents.fieldtech.ovotech.org.uk
+      - 'SLOs': http://slos.fieldforce.kaluza.technology
+  - Standards:
+      - 'API Design Language': 'standards/api-design-language.md'
+      - 'Logging': 'standards/logging.md'
+      - 'Terraform': 'standards/terraform.md'
+  - 'Other Documentation':
+      - Languages:
+          - Dart: https://dart.dev/guides/
+          - Kotlin: https://kotlinlang.org/docs/reference/
+          - 'Kotlin Code Style': https://kotlinlang.org/docs/reference/coding-conventions.html
+      - Frameworks:
+          - Flutter: https://flutter.dev/
+          - 'Quarkus Cheat Sheet': https://lordofthejars.github.io/quarkus-cheat-sheet/
+          - ReactJS: https://reactjs.org/
+      - Other:
+          - CircleCI: https://circleci.com/docs/2.0/configuration-reference/
+          - 'Terraform CLI': https://www.terraform.io/docs/cli-index.html
+          - 'OVO AWS Network Guide': https://github.com/ovotech/aws-network-guide
