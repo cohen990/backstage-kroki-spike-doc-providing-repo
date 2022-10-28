@@ -2,8 +2,8 @@ site_name: 'spikey-api'
 repo_url: https://github.com/cohen990/backstage-kroki-spike-doc-providing-repo
 plugins:
   - techdocs-core
-  - kroki
-      ServerURL: localhost:8000
+  - kroki:
+    - ServerURL: localhost:8000
 
 nav:
   - 'General':
