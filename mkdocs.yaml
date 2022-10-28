@@ -5,7 +5,3 @@ plugins:
 
 nav:
   - Home: index.md
-  - 'General':
-    - 'some external docs': https://www.google.com
-  - 'General Engineering':
-      - 'some markdown file': 'some-markdown.md'
