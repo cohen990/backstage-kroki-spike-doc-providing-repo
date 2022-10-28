@@ -4,4 +4,7 @@ plugins:
   - techdocs-core
 
 nav:
-  - Home: index.md
+  - 'General':
+      - 'md file': some-markdown.md
+  - 'General Engineering':
+    - 'external': https://www.google.com
