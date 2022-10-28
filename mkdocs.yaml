@@ -1,4 +1,4 @@
-site_name: 'some site name'
+site_name: 'spikey-api'
 repo_url: https://github.com/cohen990/backstage-kroki-spike-doc-providing-repo
 plugins:
   - techdocs-core
