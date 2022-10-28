@@ -5,6 +5,8 @@ plugins:
   - kroki:
       ServerURL:
         'http://localhost:8000' 
+      EnableMermaid:
+        True
 
 nav:
   - 'General':
