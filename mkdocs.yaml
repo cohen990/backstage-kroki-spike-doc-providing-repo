@@ -7,6 +7,6 @@ plugins:
 nav:
   - 'General':
       - 'md file': some-markdown.md
-      - 'puml': example.puml
+      - 'puml': markdown-with-puml.md
   - 'General Engineering':
     - 'external': https://www.google.com

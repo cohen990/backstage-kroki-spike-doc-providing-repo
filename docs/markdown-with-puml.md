@@ -1,3 +1,7 @@
+#some markdown
+markdown with puml
+
+```kroki-puml
 @startuml
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
@@ -5,4 +9,4 @@ Bob --> Alice: Authentication Response
 Alice -> Bob: Another authentication Request
 Alice <-- Bob: Another authentication Response
 @enduml
-
+```
