@@ -11,6 +11,7 @@ plugins:
 nav:
   - 'General':
       - 'md file': some-markdown.md
-      - 'puml': testing-kroki.md
+      - 'testing-kroki': testing-kroki.md
+      - 'testing-kroki-with-giant-file': complex-graphviz.md
   - 'General Engineering':
     - 'external': https://www.google.com
