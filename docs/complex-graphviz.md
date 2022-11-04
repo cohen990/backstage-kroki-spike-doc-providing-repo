@@ -1,4 +1,4 @@
-```graphviz
+```kroki-graphviz
 /* This is a co-authorship graph. Each node is an author and an edge exist between two authors if their name appears in a paper on one of the International Symposium on Graph Drawing bwteeen 1994-2007. The top 8 connected components is taken, and the graph is laidout using sfdp, and a map showing the clustering relationship is generated using gvmap with command:
 
 gvmap  -e gd_1994_2007.gv | neato -Ecolor="#55555522" -n2 -Tpng > gd_1994_2007.png
